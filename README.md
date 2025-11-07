@@ -52,6 +52,28 @@ tp-final/
   cd src/client
   npm run dev
 
+🔹Ejemplos de datos Mock
+POST → http://localhost:4000/api/products/create
+{
+  "productName": "wrap primavera",
+  "description": "Tortilla integral con relleno de verduras, jamon y queso",
+  "price": 3000,
+  "highlighted": true,
+  "category": "69091b2fd5619f2cb9631e50"
+}
+POST → http://localhost:4000/api/categories/create
+{
+  "name": "wraps",
+  "description": "productos elaborados con tortilla integral y verduras frescas"
+}
+POST → http://localhost:4000/api/users/create
+{
+  "name": "javier",
+  "lastName": "lopez",
+  "email": "jlopez@email.com",
+  "password": "123456"
+}
+
 📍 Endpoints del Proyecto
 🥦 Productos (/products)
 -POST	/create	Crea un nuevo producto
