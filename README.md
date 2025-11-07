@@ -48,8 +48,9 @@ tp-final/
 3- Crear un archivo .env en la raíz del proyecto
 4- Iniciar el servidor
     npm run dev
-5- Correr el frontend
+5- Instalar y correr el frontend
   cd src/client
+  npm install
   npm run dev
 
 🔹Ejemplos de datos Mock
